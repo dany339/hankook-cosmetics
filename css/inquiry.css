@@ -34,7 +34,7 @@
 }
 
 .info-wrap li.on {
-  background: var(--main-color10);
+  background: #eeebe6;
 }
 
 .info-wrap li::after {
@@ -84,7 +84,7 @@
 .faq-txt h4 {
   font-size: clamp(2.2rem, 2vw, 3rem);
   font-weight: 700;
-  color: var(--main-color);
+  color: var(--title-color);
   word-break: keep-all;
 }
 

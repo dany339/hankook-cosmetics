@@ -180,6 +180,33 @@ if ($(".event-swiper").length) {
   });
 }
 
+// allergie swiper(MENU)
+if ($(".allergie-slider").length) {
+  const allergieSwiper = new Swiper(".allergie-slider", {
+    slidesPerView: 3,
+    spaceBetween: 20,
+    loop: true,
+    autoplay: {
+      delay: 2000,
+    },
+    pagination: {
+      el: ".allergie-slider-wrap .swiper-pagination",
+      type: "fraction",
+    },
+
+    breakpoints: {
+      1100: {
+        slidesPerView: 6,
+        spaceBetween: 20,
+      },
+      700: {
+        slidesPerView: 5,
+        spaceBetween: 20,
+      },
+    },
+  });
+}
+
 /* MENU!!!---------------------------------------------- */
 
 // menu-tab(MENU)

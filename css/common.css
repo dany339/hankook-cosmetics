@@ -4,13 +4,13 @@
 
 :root {
   font-size: 62.5%;
-  --main-color: #513934;
-  --main-color80: rgba(81, 57, 52, 0.8);
-  --main-color70: rgba(81, 57, 52, 0.7);
-  --main-color60: rgba(81, 57, 52, 0.6);
-  --main-color40: rgba(81, 57, 52, 0.4);
-  --main-color15: rgba(81, 57, 52, 0.15);
-  --main-color10: rgba(81, 57, 52, 0.1);
+  --main-color: #b8a37f;
+  --main-color80: rgba(184, 163, 127, 0.8);
+  --main-color70: rgba(184, 163, 127, 0.7);
+  --main-color60: rgba(184, 163, 127, 0.6);
+  --main-color40: rgba(184, 163, 127, 0.4);
+  --main-color20: rgba(184, 163, 127, 0.2);
+  --main-color10: rgba(184, 163, 127, 0.1);
   --title-color: #272727;
   --text-color: #666666;
   --white100: rgba(255, 255, 255, 1);
@@ -252,7 +252,7 @@ nav {
 
 .logo a {
   display: block;
-  width: 11rem;
+  width: 23rem;
   height: 2.5rem;
   background: url(../img/logo.svg) no-repeat 0 0 / contain;
 }
@@ -553,7 +553,7 @@ nav {
 }
 
 .foot-con {
-  padding: 7rem 0 9rem 0;
+  padding: 4rem 0 5rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -576,13 +576,13 @@ nav {
 }
 
 .accredit figure {
-  width: 7.4rem;
-  aspect-ratio: 1/1;
+  width: 27rem;
+  aspect-ratio: 1/0.0719;
 }
 
 .accredit figure img {
   object-fit: contain;
-  transform: translateY(-25%);
+  transform: translateY(0);
 }
 
 .accredit p {
@@ -824,7 +824,6 @@ nav {
 
   .foot-con {
     flex-direction: column;
-    align-items: flex-start;
     padding: 5rem 3rem 7rem 3rem;
   }
 
@@ -843,6 +842,14 @@ nav {
 }
 
 @media (max-width: 780px) {
+  #header {
+    padding: 0;
+  }
+
+  .util-menu {
+    gap: 1rem;
+  }
+
   .gnb.on {
     left: 0;
     justify-content: flex-end;
